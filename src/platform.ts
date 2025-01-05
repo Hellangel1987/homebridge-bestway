@@ -12,7 +12,7 @@ import {PLATFORM_NAME, PLUGIN_NAME} from './settings'
 import {HotTubAccessory} from './HotTubAccessory'
 
 export class LayZSpaWhirlpool implements DynamicPlatformPlugin {
-    public readonly baseUrl: string = 'https://usapi.gizwits.com/app/'
+    public readonly baseUrl: string = 'https://euapi.gizwits.com/app/'
     public readonly Service: typeof Service = this.api.hap.Service
     public readonly Characteristic: typeof Characteristic = this.api.hap.Characteristic
 
